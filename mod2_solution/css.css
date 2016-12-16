@@ -2,6 +2,8 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	
+	
 }
 
 h1 {
@@ -21,8 +23,8 @@ h1 {
 	background-color: #12121E;
 	text-align: center;
 	width: 30%;
-	height: 20%%;
-	padding: 10px;
+	height: 20%;
+	padding: 5px;
 	position: absolute;
 	top:  0;
 	right: 5%;
@@ -38,6 +40,8 @@ h1 {
 	top: 25%;
 	left: 10%;
 	width: 80%;
+
+
 }
 
 
@@ -47,7 +51,7 @@ p.container {
   background-color: #DEF7F7;
   border-radius: 10px;
   width: 90%;
-  height: 200px;
+  height: 180px;
   margin-right: auto;
   margin-left: auto;
 
@@ -149,18 +153,27 @@ p.container {
   }
   p.containerr {
   width: 95%;
+
   }
 .thre {
-	right: 2.5%;   
+	right: 2.5%;
+	width: 15%;
+	
   }
-  
+  p.container {
+  	height: 130px;
+  }
+  .three, .two, .one {
+  	height: 25%;
+  }
 }
+
+
 
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
     margin-top: 20px;
-
     position: relative;
     
   }
@@ -199,5 +212,8 @@ p.container {
   }
   .col-sm-12 {
     width: 100%;
+  }
+  p.container {
+  	height: 220px;
   }
 }
