@@ -10,6 +10,13 @@ body {
   background-size: cover;
   text-decoration: none;
 }
+
+/*.main-content, .container-fluid {
+  border: 200px solid white;
+  position: flex;
+   margin-left: auto;
+   margin-right: auto;
+}*/
 /*inputs */
 
 
@@ -238,6 +245,11 @@ margin-left: auto;
 
 @media (max-width: 710px) {
 
+  hr {
+    width: 300px;
+
+  }
+
     #check {
    margin-top: 50px;
    margin-left: auto;
@@ -268,9 +280,9 @@ h1, h2, h3, h4, h5 {
 }
 
 #icons {
-  margin-left: auto;
+   margin-left: auto;
    margin-right: auto;
-   width: 500px;
+   width: 100%;
 
 }
 
