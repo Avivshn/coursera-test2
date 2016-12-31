@@ -1,0 +1,291 @@
+
+body {
+	font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  color: #fff;
+   background: url('../images/2000.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-decoration: none;
+}
+/*inputs */
+
+
+.form-control {
+	color: white;
+	font-weight: 700;
+	background-color: transparent;
+
+
+}
+
+
+.form-control:focus {
+
+ /* box-shadow: inset 0 1px 1px rgba(255, 22, 74, 1), 0 0 8px rgba(255, 22, 74, 1);*/
+    border-color: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 2px solid #ff1948;
+}
+
+/*end of inputs*/
+
+
+.logo img {
+	display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: 315px;
+   height: 53px;
+   margin-top: 80px;
+}
+
+ h1 {
+ 	letter-spacing: 0.05em;
+    line-height: 1.3em;
+ 	padding-top: 50px;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+ h2 {
+ 	letter-spacing: 0.06em;
+    line-height: 1.1em;
+ 	padding-top: 5px;
+	font-size: 40px;
+	font-weight: 400;
+	color: #ff1948;
+}
+
+h3 {
+	padding-top: 10px;
+	font-size: 20px;
+	letter-spacing: 0.089em;
+}
+
+h4 {
+	font-size: 20px;
+	letter-spacing: -0.016em;
+}
+
+ h5 {
+ 	
+ 	padding-top: 15px;
+	font-size: 32px;
+	font-weight: 400;
+	color: #ff1948;
+}
+
+#inputs {
+    margin-left: auto;
+    margin-right: auto;
+    width: 712px;
+    margin-top: 20px;
+}
+
+
+#call {
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  position: absolute;
+  background-color: #ff1948;
+  text-align: center !important;
+  color: white;
+  padding: 6px 40px;
+
+}
+
+#call:hover {
+  background-color: white;
+  color: #ff1948;
+}
+
+
+#call, #mail, #phone, #name {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/*#call:hover, #call a:hover {
+	  text-decoration: none;
+	  text-align: center;
+    color: #ff1948;
+    padding: 6px 29px;
+    font-weight: 700;
+    background-color: white;
+}
+*/
+#check {
+   text-align: center;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#check span {
+  text-align: center;
+	margin-right: 10px;
+	letter-spacing: 0.005em;
+}
+
+#check input {
+  vertical-align: top;
+}
+
+ h6 {
+  letter-spacing: 0.07em;
+  line-height: 1.3em;
+ 	padding-top: 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+h6 > p {
+	font-weight: 700;
+	letter-spacing: 0.135em;
+}
+
+h6 > p > span {
+	color: #ff1948;
+}
+
+hr {
+	width: 680px;
+	margin-top: 50px;
+}
+
+#icons img {
+	display: flex;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#icons p {
+line-height: -1.3em;
+font-size: 90%;
+}
+
+#icons {
+  	margin-top: 50px;
+	  margin-bottom: 50px;
+  	width: 712px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #icons p {
+font-size: 80%;
+}
+
+#inputs {
+  position: relative;
+
+}  
+
+#call {
+  position: absolute;
+  top: 20px;
+  left: -35px;
+  width: 185px;
+  margin-left: 300px;
+  }
+
+  #check {
+   margin-top: 70px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+}
+
+@media (min-width: 711px) and (max-width: 767px) {
+
+
+  #check {
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+   #icons p {
+font-size: 80%;
+}
+
+
+#inputs {
+  width: 330px;
+   margin-left: auto;
+   margin-right: auto;
+
+}  
+
+#call, #mail, #phone, #name {
+width: 300px;
+margin-left: auto;
+   margin-right: auto;
+}
+
+
+}
+
+
+@media (max-width: 710px) {
+
+    #check {
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+
+  #inputs {
+   margin-left: auto;
+   margin-right: auto;
+   width: 330px;
+
+}  
+
+#call, #mail, #phone, #name {
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#icons p {
+font-size: 80%;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+#icons {
+  margin-left: auto;
+   margin-right: auto;
+   width: 500px;
+
+}
+
+#one, #two, #three, #fore {
+   width: 40%;
+  height: 40%;
+  margin-left: auto;
+   margin-right: auto;
+
+}
+
+}
+
+    
+
+
+
+
