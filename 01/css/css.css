@@ -9,16 +9,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   text-decoration: none;
+  
 }
-
-/*.main-content, .container-fluid {
-  border: 200px solid white;
-  position: flex;
-   margin-left: auto;
-   margin-right: auto;
-}*/
-/*inputs */
-
 
 .form-control {
 	color: white;
@@ -117,15 +109,7 @@ h4 {
    margin-right: auto;
 }
 
-/*#call:hover, #call a:hover {
-	  text-decoration: none;
-	  text-align: center;
-    color: #ff1948;
-    padding: 6px 29px;
-    font-weight: 700;
-    background-color: white;
-}
-*/
+
 #check {
    text-align: center;
    margin-top: 20px;
@@ -185,6 +169,44 @@ font-size: 90%;
     font-size: 30px;
 }
 
+
+#footer {
+  background-color: black;
+  padding: 15px;
+
+}
+
+#fot {
+  border: none;
+  border-top: 2px solid #ff1948 ;
+}
+
+#img img {
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50px;
+   height: 50px;
+}
+
+#span, #img {
+  position: relative;
+ 
+}
+
+#span {
+  padding: 4px 0;
+  border-left: 4px solid #ff1948;
+}
+#span span {
+  color: #ff1948;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+
+}
+
+
 @media (min-width: 768px) and (max-width: 991px) {
 
   #icons p {
@@ -214,6 +236,9 @@ font-size: 80%;
 
 @media (min-width: 711px) and (max-width: 767px) {
 
+body {
+  padding-bottom: 70px;
+}
 
   #check {
    margin-top: 50px;
@@ -243,8 +268,18 @@ margin-left: auto;
 }
 
 
-@media (max-width: 710px) {
+@media (min-width: 440px) and (max-width: 710px) {
 
+  .logo img {
+     width: 260px;
+     height: 44px;
+}
+
+ body {
+  padding-bottom: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
+ }
 
   hr {
     width: 300px;
@@ -273,7 +308,7 @@ margin-right: auto;
 
 
 #icons p {
-font-size: 80%;
+font-size: 70%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -288,9 +323,77 @@ h1, h2, h3, h4, h5 {
 }
 
 #one, #two, #three, #fore {
-   width: 60%;
-   height: 60%;
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+}
+
+@media (max-width: 439px) {
+
+.logo img {
+     width: 260px;
+     height: 44px;
+}
+
+ body {
+  padding-bottom: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
+ }
+
+  hr {
+    width: 260px;
+
+  }
+
+    #check {
+   margin-top: 50px;
    margin-left: auto;
+   margin-right: auto;
+ }
+
+
+  #inputs {
+   margin-left: auto;
+   margin-right: auto;
+   width: 260px;
+
+}  
+
+#call, #mail, #phone, #name {
+width: 260px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#icons p {
+font-size: 70%;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+#icons {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+
+}
+
+#one, #two, #three, #fore {
+   width: 40%;
+  height: 40%;
+  margin-left: auto;
    margin-right: auto;
 
 }
