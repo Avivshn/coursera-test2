@@ -575,7 +575,8 @@
 
 }
 
-@media (max-width: 600px) {
+@media (min-width: 468px) and (max-width: 599px) {
+
 
   #a input[type=checkbox] + label {
        content: url('../images/idan.png');
@@ -686,6 +687,143 @@
        content: url('../images/donky.png');
        width: 130px;
        height: 87px;
+       position: flex;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 0 0 0 0px;
+       cursor: pointer;
+   }
+
+ #e input[type=checkbox]:checked + label {
+        content: url('../images/donky.png');
+        padding: 0 0 0 0px;
+        -webkit-filter: brightness(0.2);
+       -moz-filter: brightness(0.2);
+       -o-filter: brightness(0.2);
+       -ms-filter: brightness(0.2);
+
+    -webkit-transition: all 0.50s;
+    -moz-transition: all 0.50s;
+    -o-transition: all 0.50s;
+     transition: all 0.50s;
+
+    }
+
+
+}
+
+@media (max-width: 467px) {
+
+
+  #a input[type=checkbox] + label {
+       content: url('../images/idan.png');
+       width: 106px;
+       height: 71px;
+       position: flex;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 0 0 0 0px;
+       cursor: pointer;
+
+   }
+
+ #a input[type=checkbox]:checked + label {
+        content: url('../images/idan.png');
+        padding: 0 0 0 0px;
+        -webkit-filter: brightness(0.2);
+       -moz-filter: brightness(0.2);
+       -o-filter: brightness(0.2);
+       -ms-filter: brightness(0.2);
+
+    -webkit-transition: all 0.50s;
+    -moz-transition: all 0.50s;
+    -o-transition: all 0.50s;
+     transition: all 0.50s;
+
+    }
+
+      #b input[type=checkbox] + label {
+       content: url('../images/david.png');
+       width: 106px;
+       height: 71px;
+       position: flex;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 0 0 0 0px;
+       cursor: pointer;
+   }
+
+ #b input[type=checkbox]:checked + label {
+        content: url('../images/david.png');
+        padding: 0 0 0 0px;
+        -webkit-filter: brightness(0.2);
+       -moz-filter: brightness(0.2);
+       -o-filter: brightness(0.2);
+       -ms-filter: brightness(0.2);
+
+    -webkit-transition: all 0.50s;
+    -moz-transition: all 0.50s;
+    -o-transition: all 0.50s;
+     transition: all 0.50s;
+
+    }
+
+  #c input[type=checkbox] + label {
+       content: url('../images/twop.png');
+       width: 106px;
+       height: 71px;
+       position: flex;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 0 0 0 0px;
+       cursor: pointer;
+   }
+
+ #c input[type=checkbox]:checked + label {
+        content: url('../images/twop.png');
+        padding: 0 0 0 0px;
+        -webkit-filter: brightness(0.2);
+       -moz-filter: brightness(0.2);
+       -o-filter: brightness(0.2);
+       -ms-filter: brightness(0.2);
+
+    -webkit-transition: all 0.50s;
+    -moz-transition: all 0.50s;
+    -o-transition: all 0.50s;
+     transition: all 0.50s;
+
+    }
+
+ #d input[type=checkbox] + label {
+       content: url('../images/pub.png');
+       width: 106px;
+       height: 71px;
+       position: flex;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 0 0 0 0px;
+       cursor: pointer;
+   }
+
+ #d input[type=checkbox]:checked + label {
+        content: url('../images/pub.png');
+        padding: 0 0 0 0px;
+        -webkit-filter: brightness(0.2);
+       -moz-filter: brightness(0.2);
+       -o-filter: brightness(0.2);
+       -ms-filter: brightness(0.2);
+
+    -webkit-transition: all 0.50s;
+    -moz-transition: all 0.50s;
+    -o-transition: all 0.50s;
+     transition: all 0.50s;
+
+    }
+
+  #e input[type=checkbox] + label {
+       content: url('../images/donky.png');
+       width: 106px;
+       height: 71px;
        position: flex;
        margin-left: auto;
        margin-right: auto;

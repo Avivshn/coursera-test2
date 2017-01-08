@@ -7,6 +7,7 @@ body {
   font-size: 14px;
   }
 
+
   /*inputs decoration*/
   #inputNameBrand  {
   color: #ff1a48;
@@ -31,7 +32,7 @@ body {
   #inputSlog,
   #inputColor,
   #inputNote  {
-  color: #bfbfbf;
+  color: #919191;
   font-weight: 800;
   background-color: white;
 }
@@ -44,7 +45,7 @@ body {
     font-weight: 800;
     box-shadow: none;
     -webkit-box-shadow: none;
-    border: 2px solid #bfbfbf;
+    border: 2px solid #919191;
 }
 
 #inputName,
@@ -170,7 +171,7 @@ h2 {
 
 
 #slogen {
-  background-color: #bfbfbf;
+  background-color: #919191;
   font-size: 14px;
 
 }
@@ -216,7 +217,7 @@ h2 {
 }
 
 #colors {
-  background-color: #bfbfbf;
+  background-color: #919191;
 
 }
 
@@ -334,7 +335,7 @@ margin-bottom: 5px;
 }
 
 #notes {
-  background-color: #bfbfbf;
+  background-color: #919191;
 }
 
 
@@ -534,7 +535,7 @@ margin-bottom: 5px;
 
 }
 
-@media (max-width: 600px) {
+@media (min-width: 468px) and (max-width: 599px) {
 
   .main-content {
   width: 450px;   
@@ -545,7 +546,7 @@ margin-bottom: 5px;
   width: 100%;
 }
 
- #d, #e {
+ #a, #b {
   
    width: 130px;
    margin-left: auto;
@@ -554,7 +555,7 @@ margin-bottom: 5px;
 
 }
 
-#a, #b, #c {
+ #d, #e, #c {
   
    width: 130px;
    margin-left: auto;
@@ -682,5 +683,183 @@ margin-bottom: 5px;
    margin: -30px 22px 0 0;
 
 }
+
+}
+
+@media (max-width: 467px) {
+
+  #header-nav {
+    height: 50px;
+  }
+
+  .main-content {
+  width: 375px;   
+  }
+
+#headerwidth {
+  
+  width: 100%;
+}
+
+ #a, #b {
+  
+   width: 130px;
+   margin-left: auto;
+   margin-right: 25px;
+   
+
+}
+
+ #d, #e, #c {
+  
+   width: 130px;
+   margin-left: auto;
+   margin-right: -5px;
+   
+
+}
+
+
+#a p, #b p, #c p, #d p, #e p {
+  
+  margin-right: -20px;
+   /*border: 1px solid red;*/
+  
+}
+
+#inputs {
+    width: 100%; 
+    min-height: 0 !important;  
+  /*  border: 1px solid transparent;*/
+}
+
+#icons {
+  width: 100%;
+}
+#iconss {
+  display: inline-block;
+  width: 100%;
+  /*border: 1px solid red;*/
+
+}
+#divrek {
+  min-height: 0px;  
+}
+
+
+#clickme {
+  width: 75px;
+  padding: 5px;
+
+
+}
+
+#uploadfake {
+  visibility: collapse;
+
+}
+
+#uploadreal {
+ /* visibility: collapse;*/
+ width: 355px;
+ margin-left: -107px;
+
+}
+
+
+
+
+  .col-xxs-1, .col-xxs-2, .col-xxs-3, .col-xxs-4, .col-xxs-5, .col-xxs-6, .col-xxs-7, .col-xxs-8, .col-xxs-9, .col-xxs-10, .col-xxs-11, .col-xxs-12 {
+    float: left;
+  }
+  .col-xxs-12 {
+    width: 100%;
+  }
+  .col-xxs-11 {
+    width: 91.66666667%;
+  }
+  .col-xxs-10 {
+    width: 83.33333333%;
+  }
+  .col-xxs-9 {
+    width: 75%;
+  }
+  .col-xxs-8 {
+    width: 66.66666667%;
+  }
+  .col-xxs-7 {
+    width: 58.33333333%;
+  }
+  .col-xxs-6 {
+    width: 50%;
+  }
+  .col-xxs-5 {
+    width: 41.66666667%;
+  }
+  .col-xxs-4 {
+    width: 33.33333333%;
+  }
+  .col-xxs-3 {
+    width: 25%;
+  }
+  .col-xxs-2 {
+    width: 16.66666667%;
+  }
+  .col-xxs-1 {
+    width: 8.33333333%;
+  }
+
+   .col-half-offset {
+    margin-left: 0;
+}
+
+#notes span,
+#style span,
+#colors span,
+#upload span {
+  display: block;
+  padding-top: 5px;
+}
+
+
+.navbar-brand h1 {
+  font-size: 25px;
+  top: 13px;
+
+
+}
+
+h2 {
+  font-size: 25px;
+}
+
+#email-submit-btn {
+  font-size: 25px;
+  width: 110px;
+  padding: 2px;
+}
+
+#lefticon img {
+width: 15px;
+height: 17px;
+margin-bottom: 5px;
+}
+
+.logo {
+  margin-left: -23px;
+  height: 70px;
+  width: 200px;
+  overflow: hidden;
+  
+}
+ 
+ .logo img {
+   width: 150px;
+   height: 113px;
+   margin: -30px 50px 0 0;
+
+
+}
+
 
 }
