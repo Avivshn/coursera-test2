@@ -690,15 +690,19 @@ margin-bottom: 5px;
 
   #header-nav {
     height: 50px;
+    float: none;
   }
 
   .main-content {
-  width: 340px;   
+  width: 340px;  
+  
   }
 
 #headerwidth {
   
   width: 340px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
  #five, #six {
@@ -728,7 +732,7 @@ margin-bottom: 5px;
   
    width: 130px;
    margin-left: auto;
-   margin-right: -5px;
+   margin-right: -7px;
    
 }
 
@@ -736,8 +740,7 @@ margin-bottom: 5px;
 #a p, #b p, #c p, #d p, #e p {
   
   margin-right: -30px;
-  letter-spacing: -0.5px;
-   /*border: 1px solid red;*/
+font-size: 13px;
   
 }
 
@@ -839,7 +842,7 @@ margin-bottom: 5px;
 
 .navbar-brand h1 {
   font-size: 25px;
-  top: 13px;
+  top: 15px;
 
 
 }
@@ -872,9 +875,6 @@ margin-bottom: 5px;
    width: 130px;
    height: 98px;
    margin: -15px 0 0 0;
-
-
-}
 
 
 }
