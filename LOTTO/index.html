@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en heb" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>הגרלה</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- ==========PRELOADER-SCRIPT=============
+ -->
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+  </head>
+<body>
+
+
+  <title>הגרלה</title>
+</head>
+<body>
+
+<div id="preLoader"></div>
+<script type="text/javascript">
+
+function clickMe() {
+
+  (function(){
+    var myDiv = document.getElementById("preLoader");
+    var button = document.getElementById("click");
+    var text = document.getElementById("text");
+    var newbutton = document.getElementById("click2");
+
+      show = function(){
+        button.style.display = "none";
+        preLoader.style.display = "block";
+        setTimeout(hide, 3000); // 5 seconds
+      },
+
+      hide = function(){
+        text.style.display = "block";
+        newbutton.style.display = "inline";
+        $('#preLoader').addClass('animated slideOutDown');
+
+     var delayMillis = 1000; //1 second
+
+   setTimeout(function() {
+    preLoader.style.display = "none";
+  }, delayMillis);
+     
+
+      };
+
+    show();
+  })();
+
+  }
+
+</script>
+
+<div class="container">
+<img src="img/dice.png">
+
+<div class="text-center">
+<button id="click" onclick="clickMe(); lotto();">תגריל אותי</button>
+ </div>
+
+<p id="demo" style="display: none;"></p>
+<p id="text" style="display: none;">הזוכה המאושר הוא:</p>
+<p class="animated bounce" id="name"></p>
+<div class="text-center">
+<button id="click2" style="display: none;" onclick="refresh();">נסה שוב</button>
+</div>
+</div>
+
+<script type="text/javascript">
+  function refresh() {
+    location.reload();
+  }
+</script>
+
+
+
+<script type="text/javascript">
+function lotto() {
+  var y = document.getElementById("name")
+    var x = document.getElementById("demo")
+    x.innerHTML = Math.floor((Math.random() * 17) + 1);
+
+if (x.innerHTML == 1) {
+  y.innerHTML = "עוז צביק";
+}
+else if(x.innerHTML == 2) {
+  y.innerHTML = "מיקי ניומן";
+}
+else if(x.innerHTML == 3) {
+  y.innerHTML = "אמיר זאנה";
+}
+else if(x.innerHTML == 4) {
+  y.innerHTML = "אור בדוסה";
+}
+else if(x.innerHTML == 5) {
+  y.innerHTML = "בר לינדר";
+}
+else if(x.innerHTML == 6) {
+  y.innerHTML = "עידן דכנר";
+}
+else if(x.innerHTML == 7) {
+  y.innerHTML = "דניאל מילוא";
+}
+else if(x.innerHTML == 8) {
+  y.innerHTML = "טל ויינשטיין";
+}
+else if(x.innerHTML == 9) {
+  y.innerHTML = "יאיר טוביה";
+}
+else if(x.innerHTML == 10) {
+  y.innerHTML = "ירון גמליאל";
+}
+else if(x.innerHTML == 11) {
+  y.innerHTML = "איתמר יפה";
+}
+else if(x.innerHTML == 12) {
+  y.innerHTML = "עמרי כהן";
+}
+else if(x.innerHTML == 13) {
+  y.innerHTML = "תום פכלר";
+}
+else if(x.innerHTML == 14) {
+  y.innerHTML = "יניב פרץ";
+}
+else if(x.innerHTML == 15) {
+  y.innerHTML = "פריאל מנצור";
+}
+else if(x.innerHTML == 16) {
+  y.innerHTML = "אביב דניאל";
+}
+else if(x.innerHTML == 17) {
+  y.innerHTML = "אביב שניידר";
+}
+
+
+
+
+}
+
+
+</script>
+
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
