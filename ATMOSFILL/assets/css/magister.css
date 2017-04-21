@@ -25,6 +25,10 @@ body {
   
 }
 
+#cont {
+  margin-top: -40px;
+}
+
 
 .animated .fadeIn {
       animation-duration: 2s;
@@ -1272,6 +1276,16 @@ margin-bottom: 8px;
   .slideshow-container {
     margin-top: -60px;
   }
+
+  #downs .ics {
+  margin-bottom: -30px;
+}
+
+#cont {
+  margin-top: -100px;
+}
+
+
 }
 
 
@@ -1305,4 +1319,15 @@ margin-bottom: 8px;
   .slideshow-container {
     margin-top: -15px;
   }
+
+#downs .ics {
+  margin-bottom: -30px;
+}
+
+#cont {
+  margin-top: -38px;
+}
+
+
+
 }
