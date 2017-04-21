@@ -27,6 +27,7 @@ body {
 
 
 
+
 .animated .fadeIn {
       animation-duration: 2s;
     }
@@ -282,7 +283,8 @@ display: none;
   transition: all .3s;
   color: white;
   opacity: 1;
-  top: 39%;
+  top: 52%;
+  font-size: 20px;
 }
 .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right:hover,
 .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left:hover { 
@@ -299,7 +301,8 @@ display: none;
   transition: all .3s;
   color: white;
   opacity: 1;
-  top: 39%;
+  top: 52%;
+  font-size: 20px;
 }
 
 
