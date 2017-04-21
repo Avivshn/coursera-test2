@@ -1,0 +1,1305 @@
+html {
+	background: #0e000d url(../images/banner.jpg) no-repeat center center fixed; 
+	min-height:100%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+          overflow: -moz-scrollbars-none;
+          
+}
+
+
+body {
+	background:transparent;
+	min-height:100%; 	
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	line-height: 1.5em;
+	font-size:18px;
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-weight: normal;
+  overflow: hidden;  
+  letter-spacing: 0.02em;
+  
+}
+
+
+
+.animated .fadeIn {
+      animation-duration: 2s;
+    }
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus, a:hover {
+    color: #8d0f84;
+}
+
+::selection {
+  background: #8d0f84; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #8d0f84; /* Gecko Browsers */
+}
+
+::-webkit-scrollbar-thumb {
+    display: none; 
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    display: none; 
+    
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  display: none; 
+}
+
+
+
+::-webkit-scrollbar
+{
+   display: none; 
+}
+
+
+::-webkit-scrollbar-track {
+display: none; 
+}
+
+
+#contactButton {
+
+  background: url("../images/mail.png") center no-repeat;
+  color: white;
+  width: 35px;
+  height: 35px;
+  background-size: 35px 35px;
+  z-index: 99999999;
+  margin-top: 5px;
+
+}
+
+#contactButton:hover {
+  background: url("../images/mail2.png") center no-repeat;
+   background-size: 35px 35px;
+
+  }
+
+
+ 
+
+
+/* ========================PRELOADER========================*/
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+#preLoader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../images/preloader5.gif) center no-repeat #0e000d;
+}
+
+
+/*======================END OF PRELOADER=================*/
+
+
+/********************************************************/
+/*                    Navigation bar                    */
+/********************************************************/
+.mainmenu { z-index: 999999; width:100%;  padding: 30px 0 0 0;}
+
+	.mainmenu { position: fixed; }
+
+
+.navbar-toggle {
+  font-family: 'Poiret One', cursive;
+	position:relative;
+	float:left;
+	display:block;
+	padding: 9px 10px;
+	background: rgba(255, 255, 255, 0.2);
+	background-image: none;
+	border: 0 none;
+	top:0px; 
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+	outline: 0;
+	opacity: 1;
+	-webkit-transition: all .45s;
+	   -moz-transition: all .45s;
+	        transition: all .45s;
+	        float: left;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: white;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+.open .navbar-toggle { 
+	top:-70px; 
+	opacity: 0;  
+}
+.mainmenu .dropdown-menu {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+	top: -14em;
+	left: 0px;
+	font-size: 16px;
+	padding:0;
+	background:none;
+	border:0 none;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	display:block;
+	opacity:0;
+	-webkit-transition: all .45s;
+	   -moz-transition: all .45s;
+	        transition: all .45s;
+}
+.mainmenu .dropdown-menu .active { 
+	font-family: 'Poiret One', cursive;
+	background-color: transparent;
+}
+.mainmenu .open .dropdown-menu { 
+	top:2px;
+	opacity:1;
+}
+.mainmenu .dropdown-menu a { 
+	padding:7px 10px;
+	margin:0;
+	color:white;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+}
+.mainmenu .dropdown-menu a:hover { 
+
+	color:white;
+	/*padding:10px 8px 10px 12px;*/
+}
+
+/*-----------------------------Home----------------------------*/
+
+.carousel-caption {
+  top: 18%;
+}
+
+.carousel-caption img {
+  width: 300px;
+  height: 300px;
+
+}
+
+.social-links {
+  margin-top: 10%;
+  margin-right: 6%;
+}
+
+.social-links li {
+	display: inline-block;
+
+}
+
+.social-links li a {
+  color: rgba(255, 255, 255, 0.3);
+  display: block;
+  margin: 0 6px;
+  transition: all 0.3s;
+}
+
+.social-links li a:hover {
+  color: #fff;
+ 
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------PROJECTS--------------------------------------*/
+
+
+/*------------------------down-slider----------------*/
+
+.well {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  margin-top: 10px;
+}
+
+#downSlider {
+  width: 600px;
+  background-color: transparent;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.carousel-inner {
+  height: 80px;
+}
+
+#myCarousel_Scroller a {
+  color: white;
+  background-image: none;
+  padding: 0;
+  margin: 0;
+
+
+}
+
+#leftDown, #rightDown {
+  width: 2px;
+}
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right { 
+  right: 0;
+  text-shadow: none;
+  transition: all .3s;
+  color: white;
+  opacity: 1;
+  top: 39%;
+}
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right:hover,
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-left:hover { 
+  
+  color: #8d0f84;
+}
+.carousel-control.left { 
+  background-image: none;
+}
+
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-left { 
+  left: 0;
+  text-shadow: none;
+  transition: all .3s;
+  color: white;
+  opacity: 1;
+  top: 39%;
+}
+
+
+.carousel .carousel-inner img {
+  
+  margin-right: auto;
+  margin-left: auto;
+  width: 65px;
+  height: 65px;
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+
+
+
+.carousel .carousel-inner  .active {
+  opacity: 1;
+}
+ 
+
+/*-----------------------slider-------------------------*/
+
+
+#newDIV {
+  transition: all .3s;
+}
+
+
+#projects {
+
+   background: #0e000d url(../images/fixed5.png) no-repeat center center fixed;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+
+
+}
+
+.mySlides { 
+  display: none;
+   border-radius: 15px;
+  overflow: hidden;
+ 
+
+ }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  margin-top: -115px;
+  margin-bottom: 0;
+  border-radius: 15px;
+  overflow: hidden;
+
+  
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+
+   color: #8d0f84;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  letter-spacing: 0.2em;
+  background-color: rgba(0,0,0,0.7);
+  border-bottom-right-radius: 10px;
+  top: 0;
+  font-family: 'Poiret One', cursive;
+}
+
+.dot {
+
+
+  transition: background-color 0.6s ease;
+}
+
+
+
+
+#myDIV {
+  display: none;
+
+
+}
+
+
+.element {
+   background: url("../images/element.png") center no-repeat;
+   width: 987px;
+   height: 502px;
+   position: fixed;
+   left: -260px;
+   
+   pointer-events: none
+}
+
+.element2 {
+background: url("../images/element2.png") center no-repeat;
+   width: 450px;
+   height: 289px;
+   position: fixed;
+   right: 0;
+   top: 0;
+   pointer-events: none
+}
+
+
+#cars {
+   animation-duration: 2.5s;
+  -webkit-animation-duration: 2.5s;
+  -moz-animation-duration: 2.5s;
+  -moz-box-shadow:    5px 5px 15px black;
+   -webkit-box-shadow: 5px 5px 15px black;
+   box-shadow:         5px 5px 15px black;
+
+
+}
+
+
+
+#wraper {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom:0px;
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+    height: 100px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+.footer {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom:0px;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0,0,0,0.6);
+    height: 100px;
+  
+}
+
+.footerClose {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom:0px;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0,0,0,0.6);
+    height: 70px;
+    text-align: center;
+
+}
+
+#openUp {
+   background: url("../images/up.png") center no-repeat;
+   width: 40px;
+   height: 27px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 21px;
+   display: block;
+   cursor:pointer;
+   transition: all .2s;
+
+}
+
+#span {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: -24px;
+    cursor:pointer;
+    transition: all .2s;
+
+
+}
+
+#span:hover {
+ color: #8d0f84;
+ letter-spacing: 0.04em;
+
+}
+
+#span:hover > #openUp {
+background: url("../images/up2.png") center no-repeat;
+
+
+ 
+}
+
+
+#close {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+   background: url(../images/close3.png) center no-repeat;
+  width: 20px;
+  height: 20px;
+  transition: all .3s;
+  cursor: pointer;
+
+}
+
+
+#close:hover {
+ 
+ animation: close 700ms;
+ background: url(../images/close4.png) center no-repeat ;
+
+}
+
+@keyframes close {
+  from { 
+  transform: rotate(0deg); }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+
+
+/*---------------------end slider-----------------------*/
+
+/*-------------------------END PROJECTS--------------------*/
+
+
+
+/*-------------------CONTACT FORM---------------------------*/
+
+textarea {
+    resize: vertical;
+}
+
+#contactMe {
+   background: #0e000d url(../images/fixed2.png) no-repeat center center fixed; 
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+
+}
+
+
+
+contact-form h3 {
+  color: #3b0040;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.contact-form .input-group {
+  width: 100%;
+}
+
+.contact-form .form-control {
+  border-color: -moz-use-text-color -moz-use-text-color #cccccc;
+  border-radius: 0;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.contact-form .input-field {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.contact-form .input-field:last-child {
+  margin-right: 0;
+}
+
+
+.contact-form #phonemy, .contact-form #mail {
+  background-color: transparent;
+  border: 1px solid white ;  
+  text-align: center;
+  width: 100%;
+  margin-top: 50px; 
+  position: relative;
+  padding: 6.5px;
+}
+
+.contact-form #phonemy a {
+   color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: none;
+  cursor: pointer;
+
+}
+
+.contact-form #phonemy span, .contact-form #mail span {
+  color: white;
+  font-size: 22px;
+  line-height: 30px;
+  
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 0.05em;
+   font-weight: normal;
+  text-transform: uppercase;
+
+
+}
+
+
+
+
+
+#downs {
+  text-align: center;
+}
+
+
+
+#phoneimg {
+  background: url(../images/phone.png) no-repeat center;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-right: 1px;
+}
+
+#mailimg {
+
+  width: 25px;
+  position: relative;
+  top: -4px;
+  margin-right: 4px;
+ 
+}
+
+
+.contact-form #form-submit {
+  background-color: transparent;
+  border: 1px solid white ;
+  color: white;
+  font-size: 22px;
+  padding: 8.5px;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  text-transform: uppercase;
+
+}
+
+.contact-form #form-submit:hover {
+  background-color: white;
+  color: #0e000d;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+
+}
+
+.contact-form {
+  position: relative;
+}
+
+#sent {
+  font-size: 20px;
+  color: white;
+}
+
+
+#form-submit:active,
+#form-submit:focus,
+#form-submit {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white !important;
+}
+
+
+#inputName,
+#inputMessage,
+#inputEmail,
+#inputPhone  {
+   
+  font-size: 16px;
+  color: white;
+
+  background-color: transparent;
+}
+
+#inputName:focus,
+#inputMessage:focus,
+#inputEmail:focus,
+#inputPhone:focus {
+    padding-top: 5px;
+    font-size: 16px;
+    
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: 2px solid #8d0f84;
+    background-color: transparent;
+      
+}
+
+
+/*---------------------------------END OF CONTACT FORM-------------------------------*/
+
+
+/*-------------------------------ABOUT ME-------------------------------------*/
+
+
+#aboutMe {
+  background: #0e000d url(../images/fixed4.png) no-repeat center center fixed;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+
+
+.circular {
+    display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 200px;
+  border-radius:   150px;
+  transition: all .4s;
+  background: url("../images/oz.png") no-repeat;
+  background-size: 350px 233px;
+  filter: brightness(70%);
+  }
+
+.circular:hover {
+  background-size: 390px 260px;
+  transform: rotate(15deg);
+   filter: brightness(100%);
+
+}
+
+
+
+
+
+ #abouts {
+  margin-bottom: 50px;
+
+ 	
+ }
+
+
+
+/* ------------------------------END OF ABOUT ME----------------------------
+*/
+
+
+/********************************************************/
+/*             Sections - universal classes             */
+/********************************************************/
+.section { 
+	z-index: 1;
+	min-height:420px;
+	width: 100%; 
+	overflow:auto;
+	height:100%;
+	padding-top:100px;
+	padding-bottom:50px; 
+	display:none;
+	top:0;
+} 
+@media (min-width: 768px) {
+	.section { padding-top:160px;}
+}
+
+/* Show one of sections */
+#home { 
+	display: block;
+}
+
+
+/********************************************************/
+/*                      Typography                      */
+/********************************************************/
+
+.title,
+.subtitle { 
+	font-family: 'Poiret One', cursive;
+	font-weight:normal;
+	font-size:4em;
+	margin-bottom:10px; 
+	color: white; 
+	line-height:1em;
+  text-transform: uppercase;
+    position:relative;
+}
+
+#grunge {
+    position:absolute;
+    display:block;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: url(../images/grunge.png);
+    opacity: 1;
+    pointer-events: none;
+}
+
+
+
+
+	.lead { 
+		font-size:1.3em;
+	}
+}
+
+
+
+
+
+
+/***********************************************************/
+/*                   Inverted theme                        */
+/***********************************************************/
+.theme-invert { 	
+	color: white;
+	
+ }
+.theme-invert a { 
+	color: white;
+}
+
+
+.theme-invert .navbar-toggle {
+	background: rgba(0, 0, 0, 0.12);
+}
+
+.theme-invert .mainmenu .dropdown-menu a { 
+  font-size: 18px;
+	color: white;
+}
+.theme-invert .mainmenu .dropdown-menu a:hover { 
+	background: none;
+	color: #8d0f84;
+  font-weight: bold;
+	
+}
+
+.theme-invert .mainmenu .dropdown-menu a:focus{ 
+	background: none;
+  font-weight: bold;
+
+}
+
+
+.theme-invert .title,
+.theme-invert .subtitle,
+.theme-invert .tagline { 
+	color: white; 
+
+}
+
+h2 span {
+  color: #8d0f84;
+}
+
+
+/* Icon Bob */
+@-webkit-keyframes hvr-icon-bob {
+  0% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  50% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+@keyframes hvr-icon-bob {
+  0% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  50% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+@-webkit-keyframes hvr-icon-bob-float {
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+@keyframes hvr-icon-bob-float {
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+.hvr-icon-bob {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 2em;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-bob:before {
+  content: "\f077";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  font-size: 30px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-bob:hover:before, .hvr-icon-bob:focus:before, .hvr-icon-bob:active:before {
+  -webkit-animation-name: hvr-icon-bob-float, hvr-icon-bob;
+  animation-name: hvr-icon-bob-float, hvr-icon-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+
+/* Pop */
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  float: right;
+}
+
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* Grow */
+.hvr-grow {
+  opacity: 0.5; 
+  display: block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  
+  
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+
+
+/*===============================RESPONSIVE MEDIA =====================================*/
+
+
+@media (max-width: 650px)  {
+
+
+
+/*.nav > li{
+position: static !important;
+}
+.dropdown-menu {
+left: 0 !important;
+right: 0 !important;
+}
+.dropdown-menu > li{
+float: left !important;
+} 
+.dropdown-menu > li > a{
+width:auto !important;
+
+}*/
+.theme-invert .mainmenu .dropdown-menu a {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+#mailUnclick {
+  pointer-events: none;
+}
+
+.contact-form #phonemy a {
+  display: inline;
+}
+
+.contact-form #phonemy {
+  cursor: pointer;
+}
+
+#phonemy:hover {
+  background-color: white;
+  color: #0e000d;
+}
+
+#phonemy:hover > #hoverPhone {
+  color:  #0e000d;
+  font-weight: bold;
+}
+
+#phonemy:hover > #phoneimg {
+  background: url(../images/phonehover.png) no-repeat center;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 1px;
+}
+
+  #none {
+    display: none;
+  }
+
+  .carousel-caption {
+  top: 25%;
+}
+
+
+  .carousel-caption img {
+  width: 240px;
+  height: 240px;
+
+}
+
+.social-links {
+  margin-top: 10%;
+  margin-right: 12%;
+}
+
+.mainmenu .dropdown-menu a {
+  padding: 5px 5px;
+}
+
+
+.title, .subtitle {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#downs {
+  margin-top: 10px;
+}
+  
+#downs .ics {
+  margin-bottom: -30px;
+}
+
+.contact-form .form-control {
+  margin-bottom: 0;
+}
+
+#downs {
+  margin-top: -20px;
+}
+
+.contact-form #phonemy span, .contact-form #mail span, .contact-form #form-submit  {
+  font-size: 18px;
+  letter-spacing: 0.15em;
+}
+
+#mailimg {
+  top: -1.5px;
+}
+
+#phoneimg {
+  top: 3px;
+}
+
+#sent {
+  font-size: 16px;
+}
+
+
+
+/*================projects===============
+
+*/
+
+#span {
+  font-size: 35px;
+  margin-top: -5px;
+}
+
+
+
+#openUp {
+margin-bottom: 8px;
+}
+
+#downSlider {
+  width: 100%;
+}
+
+
+
+#close {
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+}
+#close:hover {
+    width: 23px;
+  height: 23px;
+  background-size: 23px 23px;
+}
+
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+  right: 10px;
+}
+
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-left {
+  left: 10px;
+}
+
+.carousel-inner > .item > .row {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+  .slideshow-container {
+    margin-top: -10px;
+  }
+
+  .footerClose {
+    background-color: transparent;
+  }
+
+
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+  .slideshow-container {
+    margin-top: -60px;
+  }
+}
+
+
+
+@media (min-width: 651px) and (max-width: 766px) {
+
+    #none {
+    display: none;
+  }
+
+  .contact-form #phonemy {
+  cursor: pointer;
+}
+
+#phonemy:hover {
+  background-color: white;
+  color:  #0e000d;
+}
+
+#phonemy:hover > #hoverPhone {
+  color:  #0e000d;
+}
+
+
+.contact-form #phonemy a {
+  display: inline;
+  font-size: 22px;
+}
+
+
+  .slideshow-container {
+    margin-top: -15px;
+  }
+}

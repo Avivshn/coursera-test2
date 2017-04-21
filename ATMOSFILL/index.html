@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+
+
+	
+	<title>ATMOSFILL</title>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/cycle2.js"></script>
+
+	<!-- ==========animations========== -->
+	 <link rel="stylesheet" href="assets/css/animate.min.css">
+
+
+   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	
+	<!-- Bootstrap itself -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/magister.css">
+    <link rel="stylesheet" href="assets/css/poster.css">
+
+
+	<!-- Fonts -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+
+
+<!-- ==============player============= -->
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="js/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="css/style.css" media="screen">
+
+
+
+<!-- ==========PRELOADER-SCRIPT=============
+ -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+
+</head>
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body class="theme-invert">
+
+<div id="preLoader"></div>
+<script type="text/javascript">
+
+  (function(){
+    var preLoader = document.getElementById("preLoader"),
+
+      show = function(){
+        preLoader.style.display = "block";
+        setTimeout(hide, 3000); // 5 seconds
+      },
+
+      hide = function(){
+        
+        $('#preLoader').addClass('animated slideOutDown');
+
+     var delayMillis = 1000; //1 second
+
+   setTimeout(function() {
+    preLoader.style.display = "none";
+  }, delayMillis);
+     
+
+      };
+
+    show();
+  })();
+
+</script>
+
+
+<nav class="mainmenu">
+	<div class="container">
+		<div class="dropdown">
+			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				<li><a id="showme"  href="#home" class="active">Home</a></li>
+				<li><a id="showme2" href="#projects">Projects</a></li>
+				<li><a id="showme3"  href="#aboutMe">About Me</a></li>
+				<li><a id="hideMe"  href="#contactMe">Contact Me</a></li>
+			</ul>
+		</div>
+      <a id="linkID" href="#contactMe"><p class="hvr-pop" id="contactButton"></p></a>
+	</div>
+
+</nav>
+
+
+
+
+<!-- Main (Home) section -->
+     <section class="section" id="home">
+	     <div class="container">
+
+		 <div class="carousel-caption">
+				
+				      <img  src="assets/images/LOGOS.png" alt="ATMOSFILL">
+	
+		
+							<ul class="social-links text-center">
+								<li><a href="https://www.instagram.com/atmosfill/" target="_blank" ><i class="fa fa-instagram fa-lg"></i></a></li>
+								<li><a href="https://www.facebook.com/AtmosfillSound/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+							
+							
+							</ul>
+						</div>
+	
+	            </div>
+            </section>
+
+<!-- Second (About) section -->
+
+
+<section class="animated slideInUp section" id="projects">
+
+
+	<div class="container">
+	
+      
+        <div id="cars" class="slideshow-container">
+
+
+    <div class="mySlides animated fadeIn">
+    <video id="op1" width="100%" height="400px" poster="media/transparent.png" >
+		<source src="media/07.webm" type="video/webm">
+	</video>
+  </div>
+
+      <div class="mySlides animated fadeIn">
+    <video id="op2" width="100%" height="400px" poster="media/transparent.png" >
+    <source src="media/01.webm" type="video/webm">
+  </video>
+  </div>
+
+      <div class="mySlides animated fadeIn">
+    <video id="op3" width="100%" height="400px" poster="media/transparent.png" >
+    <source src="media/02.mp3" type="video/mp4">
+  </video>
+  </div>
+
+    <div class="mySlides animated fadeIn">
+    <video id="op4" width="100%" height="400px" poster="media/transparent.png" >
+    <source src="media/03.mp3" type="video/mp4">
+  </video>
+  </div>
+
+    <div class="mySlides animated fadeIn">
+    <video  id="op5" width="100%" height="400px" poster="media/transparent.png" >
+    <source src="media/04.wav" type="video/mp4">
+  </video>
+  </div>
+
+
+    <div class="mySlides animated fadeIn">
+    <video id="op6" width="100%" height="400px" poster="media/transparent.png" >
+    <source src="media/05.mp4" type="video/mp4">
+  </video>
+  </div>
+
+
+    <div class="mySlides animated fadeIn">
+    <video id="op7" width="100%" height="400px" poster="media/transparent.png" >
+    <source src="media/06.webm" type="video/webm">
+  </video>
+  </div>
+
+
+
+  
+
+  <a class="prev" onclick="plusSlides(-1); pauseVid();">&#10094;</a>
+  <a class="next" onclick="plusSlides(1); pauseVid();">&#10095;</a>
+</div>
+
+	</div>
+
+
+<div id="wraper">
+	<footer id="myDIV" class="footer">
+		
+  <div id="downSlider" class="container-fluid">
+    <div class="well" >
+        <div id="myCarousel_Scroller" data-interval="false" class="carousel slide">
+            <!-- Carousel items -->
+
+
+
+
+
+              <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="#x" >
+                                <img class="hvr-grow img-responsive dot" src="assets/images/icons/rocket4.png" onclick="currentSlide(1); pauseVid();">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#x" >
+                                <img class=" hvr-grow img-responsive dot" src="assets/images/icons/rocket5.png" onclick="currentSlide(2); pauseVid();">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#x" >
+                                <img class="hvr-grow img-responsive dot" src="assets/images/icons/rocket.png" onclick="currentSlide(3); pauseVid();">
+                            </a>
+                        </div>
+                       
+                    </div>
+                    <!--/row-->
+                    </div>
+
+                    <div class="item">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="#x" >
+                                <img class="hvr-grow img-responsive dot" src="assets/images/icons/rocket3.png" onclick="currentSlide(4); pauseVid();">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#x" >
+                                <img class=" hvr-grow img-responsive dot" src="assets/images/icons/rocket2.png" onclick="currentSlide(5); pauseVid();">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#x" >
+                                <img class="hvr-grow img-responsive dot" src="assets/images/icons/rocket6.png" onclick="currentSlide(6); pauseVid();">
+                            </a>
+                        </div>
+                       
+                    </div>
+                    <!--/row-->
+
+                    </div>
+
+
+                    <div class="item">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="#x" >
+                                <img class="hvr-grow img-responsive dot" src="assets/images/icons/rocket7.png" onclick="currentSlide(7); pauseVid();">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#x" >
+                                <img class=" hvr-grow img-responsive dot" src="assets/images/icons/rocket4.png" onclick="currentSlide(1); pauseVid();">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#x" >
+                                <img class="hvr-grow img-responsive dot" src="assets/images/icons/rocket5.png" onclick="currentSlide(2); pauseVid();">
+                            </a>
+                        </div>
+                       
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/item-->
+               </div>
+
+
+
+
+
+            <a id="leftDown" class="left carousel-control center-block" href="#myCarousel_Scroller" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+            <a id="rightDown" class="right carousel-control center-block" href="#myCarousel_Scroller" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>
+        <!--/myCarousel-->
+    </div>
+    <!--/well-->
+</div>
+
+
+
+  <a onclick="closeDiv(); " id="close"><span><span></a>
+
+
+		</footer>
+
+
+
+		<footer id="newDIV" class="footerClose">
+
+		<div>
+
+		<a onclick="openDiv();" id="span" ><span id="openUp"></span>Projects</a>
+		</div>
+			
+		</footer>
+    </div>
+
+
+    <script src="assets/js/slider.js"></script>
+
+
+	
+</section>
+
+
+
+<!-- Third (AboutMe) section -->
+<section class="animated slideInUp section" id="aboutMe">
+
+	<div class="container">
+	
+	<div id="abouts" class="row">
+      
+	            
+						<div id="imgs" class="footer-single">
+							<div class="circular"></div>
+			
+						</div>
+
+					<h2 class="text-center title"><span>A</span>bout Me</h2>
+							
+
+						<div class="text-center">
+							
+							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. eusmod tempor incididunt ut labore <br> et dolore magna aliqua.
+							eusmod tempor incididunt ut labore et dolore magna aliqua.eusmod tempor <br> incididunt ut labore et dolore magna aliqua.eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+				
+					</div>
+
+	</div>
+
+</section>
+
+<!-- Fourth (Contact) section -->
+<section class="animated slideInUp section" id="contactMe">
+	<div class="container">
+	
+		<h2 class="text-center title">Cont<span>a</span>ct Me</h2>
+	<div class="contact-form">
+		<form method="POST" id="contact-form">
+
+                                 <div id="contact">
+      
+                               <div id="shem"  class="input-group">
+                                 <input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="Name">
+                               </div>
+                                <p id="name"></p>
+
+                               <div id="phone" class="input-group">
+                                <input id="inputPhone" class="form-control contact-input" placeholder="Phone" name="Phone">
+                               </div>
+                                <p id="phones"></p>
+
+                               <div id="email" class="input-group">
+                                <input type="email" class="form-control contact-input" id="inputEmail" placeholder="Email" name="Email">
+                                  </div>
+                                  <p id="emails"></p>
+
+     
+                                   </div>    
+         
+
+								<div class="input-group">
+									<textarea name="message" id="inputMessage" rows="1" placeholder="Message" class="form-control"></textarea>
+									<p id="message"></p>
+
+								</div>
+                       
+                                 <p id="sent"></p>
+                  <div id="downs" class="row">            
+						 
+            <div class="ics col-md-4 col-xs-12">
+            <div id="phonemy">
+          
+          
+           <div id="phoneimg"></div>
+            <span id="none">+972542166991</span>
+           <a id="hoverPhone" href="tel: +972542166991">Call Me</a>
+
+            </div>
+            </div>   
+
+
+            <div id="mailUnclick" class="ics col-md-4 col-xs-12">
+            <div id="mail">
+           
+            <img id="mailimg" src="assets/images/mail.png">
+            <span>oz.zvik@gmail.com</span>
+
+            </div>
+            </div>   
+
+
+
+         <div class="ics col-md-4 col-xs-12">
+         
+            <input type="submit" onclick="" id="form-submit"  value="Send Message" name="submit">
+            </div>  
+                   
+
+								</div>
+							</form>
+							
+							
+						</div>
+	</div>
+</section>
+
+<!-- ===============player============== -->
+<script>
+	$(document).ready(function() {
+		$('video').mediaelementplayer({
+			alwaysShowControls: false,
+			videoVolume: 'horizontal',
+			features: ['playpause','progress','volume','fullscreen']
+		});
+	});
+	</script>
+
+
+
+
+
+
+<!-- Load js libs only when the page is loaded. -->
+
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.custom.72241.js"></script>
+<!-- Custom template scripts -->
+<script src="assets/js/magister.js"></script>
+<script src="assets/js/stop.js"></script>
+
+
+
+
+<!-- 	============SENT-EMAIL============ -->
+
+        <script type="text/javascript">
+
+        function myFunction(animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        $('#form-submit').addClass('animated ' + animationName).one(animationEnd, function() {
+            $('#form-submit').removeClass('animated ' + animationName);
+        });
+    }
+        	
+           $(document).ready(function() {
+  $('#contact-form').submit(function(e) {
+    var name    = document.getElementById('inputName')
+    var email   = document.getElementById('inputEmail')
+    var message = document.getElementById('inputMessage')
+    var phone = document.getElementById('inputPhone')
+    
+   
+
+   if (!name.value || !phone.value) {
+      problem();
+      return false;
+      }
+      else {
+      var formData = new FormData($(this)[0]);
+      $.ajax({
+       url: 'https://getsimpleform.com/messages?form_api_token=9475f8fb03f9c4a8af8348a691e5a7f3',
+        method: 'POST',
+        data: formData,
+        async: false,
+        cache: false,
+        contentType: false,
+        processData: false
+      });
+      e.preventDefault();
+      $(this).get(0).reset();
+      myFunction('zoomOutRight');
+      sent();
+    }
+  });
+});
+
+
+function problem() {
+    document.getElementById("sent").innerHTML = '<p class="text-center animated bounceInLeft">Please fill at least your Name and Phone Number</p>';
+}
+
+   function sent() {
+    document.getElementById("sent").innerHTML = '<p class="text-center animated bounceInLeft">Your message has been sent. we will be in touch with you soon</p>';
+}
+
+        </script>
+
+
+
+  
+
+
+</body>
+</html>
