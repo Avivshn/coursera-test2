@@ -206,18 +206,21 @@ display: none;
 /*-----------------------------Home----------------------------*/
 
 .carousel-caption {
-  top: 18%;
+  top: 23%;
 }
 
 .carousel-caption img {
-  width: 300px;
-  height: 300px;
+  width: 240px;
+  height: 240px;
 
 }
 
 .social-links {
   margin-top: 10%;
-  margin-right: 6%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
 }
 
 .social-links li {
@@ -807,7 +810,7 @@ input:-webkit-autofill:active {
   height: 200px;
   border-radius:   150px;
   transition: all .4s;
-  background: url("../images/oz.png") no-repeat;
+  background: url("../images/oz.jpg") no-repeat;
   background-size: 350px 233px;
   filter: brightness(70%);
   }
@@ -1090,6 +1093,7 @@ h2 span {
 
 
 
+
 /*.nav > li{
 position: static !important;
 }
@@ -1103,10 +1107,10 @@ float: left !important;
 .dropdown-menu > li > a{
 width:auto !important;
 
-}*/
+}
 .theme-invert .mainmenu .dropdown-menu a {
   font-size: 16px;
-}
+}*/
 
 
 
@@ -1114,8 +1118,9 @@ width:auto !important;
   margin-top: -38px;
 }
 
-
-
+#textShow {
+  margin-top: 17px;
+}
 
 #mailUnclick {
   pointer-events: none;
@@ -1160,15 +1165,11 @@ width:auto !important;
 
 
   .carousel-caption img {
-  width: 240px;
-  height: 240px;
+  width: 180px;
+  height: 180px;
 
 }
 
-.social-links {
-  margin-top: 10%;
-  margin-right: 12%;
-}
 
 .mainmenu .dropdown-menu a {
   padding: 5px 5px;
@@ -1218,6 +1219,9 @@ width:auto !important;
 /*================projects===============
 
 */
+
+
+
 
 #span {
   font-size: 35px;

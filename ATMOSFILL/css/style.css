@@ -222,7 +222,6 @@
 /* Progress Bar */
 .mejs-controls div.mejs-time-rail {
 	position: absolute;
-	width: 100%;
 	left: 0;
 	top: -10px;
 }
@@ -307,6 +306,10 @@
 
 
 
+}
+
+.mejs-controls .mejs-fullscreen-button button, .mejs-controls .mejs-unfullscreen button {
+  display: none;
 }
 
 .mejs-inner .mejs-overlay-button:hover {
