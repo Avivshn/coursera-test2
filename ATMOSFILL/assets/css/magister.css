@@ -1333,3 +1333,11 @@ margin-bottom: 8px;
 
 
 }
+
+@media (max-width: 400px)  {
+
+  .theme-invert .mainmenu .dropdown-menu a {
+    font-size: 15.5px;
+  }
+
+  }

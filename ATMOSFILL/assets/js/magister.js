@@ -77,42 +77,42 @@ jQuery(document).ready(function($) {
  // ===================================================
 
 
- jQuery(document).ready(function(){
-    if (jQuery(window).width() > 650) {
+//  jQuery(document).ready(function(){
+//     if (jQuery(window).width() > 650) {
         
- show3.onclick = function () {
-    pauseVid();
+//  show3.onclick = function () {
+//     pauseVid();
 
-    linkID.style.display = "block";
-  }
+//     linkID.style.display = "block";
+//   }
 
-   show.onclick = function () {
-    pauseVid();
+//    show.onclick = function () {
+//     pauseVid();
 
-    linkID.style.display = "block";
-  }
+//     linkID.style.display = "block";
+//   }
 
-     show2.onclick = function () {
-      pauseVid();
-      reload();
+//      show2.onclick = function () {
+//       pauseVid();
+//       reload();
 
-    linkID.style.display = "block";
-  }
-
-
-
-  linkID.onclick = function () {
-    linkID.style.display = "none";
-  }
+//     linkID.style.display = "block";
+//   }
 
 
-  hideMe.onclick = function () {
-    pauseVid();
-    linkID.style.display = "none";
-  }
 
-}
-});
+//   linkID.onclick = function () {
+//     linkID.style.display = "none";
+//   }
+
+
+//   hideMe.onclick = function () {
+//     pauseVid();
+//     linkID.style.display = "none";
+//   }
+
+// }
+// });
 
 
 
