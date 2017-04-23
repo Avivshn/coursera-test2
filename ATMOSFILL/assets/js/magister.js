@@ -28,6 +28,14 @@ jQuery(document).ready(function($) {
 
 
 
+
+// ======================================
+
+
+
+
+
+
   var show3 = document.getElementById("showme3");
   var show2 = document.getElementById("showme2");
   var show = document.getElementById("showme");
@@ -35,6 +43,44 @@ jQuery(document).ready(function($) {
    var hideMe = document.getElementById("hideMe");
     
   show3.onclick = function () {
+    pauseVid();
+
+    
+  }
+
+   show.onclick = function () {
+    pauseVid();
+
+    
+  }
+
+     show2.onclick = function () {
+      pauseVid();
+      reload();
+    
+  }
+
+
+
+  linkID.onclick = function () {
+    linkID.style.display = "none";
+  }
+
+
+  hideMe.onclick = function () {
+    pauseVid();
+    linkID.style.display = "none";
+  }
+
+ 
+
+ // ===================================================
+
+
+ jQuery(document).ready(function(){
+    if (jQuery(window).width() > 650) {
+        
+ show3.onclick = function () {
     pauseVid();
 
     linkID.style.display = "block";
@@ -65,4 +111,16 @@ jQuery(document).ready(function($) {
     linkID.style.display = "none";
   }
 
- 
+}
+});
+
+
+
+ // ==========================================
+
+
+document.getElementById("contactMe").onclick = function () {
+  linkID.style.display = "none";
+}
+
+

@@ -308,6 +308,12 @@
 
 }
 
+
+.mejs-controls .mejs-play button,
+.mejs-controls .mejs-pause button {
+
+}
+
 .mejs-controls .mejs-fullscreen-button button, .mejs-controls .mejs-unfullscreen button {
   display: none;
 }

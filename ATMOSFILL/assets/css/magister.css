@@ -1092,14 +1092,12 @@ h2 span {
 @media (max-width: 650px)  {
 
 
-
-
-/*.nav > li{
+.nav > li{
 position: static !important;
 }
 .dropdown-menu {
 left: 0 !important;
-right: 0 !important;
+
 }
 .dropdown-menu > li{
 float: left !important;
@@ -1110,7 +1108,7 @@ width:auto !important;
 }
 .theme-invert .mainmenu .dropdown-menu a {
   font-size: 16px;
-}*/
+}
 
 
 
